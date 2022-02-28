@@ -365,9 +365,10 @@ class Setting:
 
     @staticmethod
     def get_server_info():
-        return '{}/{} UPnP/1.0 Macast/{}'.format(Setting.get_system(),
-                                                 Setting.get_system_version(),
-                                                 Setting.get_version_tag())
+        return 'Linux/4.0.9+ UPnP/1.0 IQIYIDLNA/1.0'
+        # return '{}/{} UPnP/1.0 IQIYIDLNA/{}'.format(Setting.get_system(),
+        #                                          Setting.get_system_version(),
+        #                                          Setting.get_version_tag())
 
     @staticmethod
     def get_system_env():

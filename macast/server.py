@@ -137,7 +137,7 @@ class Service:
                 'tools.response_headers.on': True,
                 'tools.response_headers.headers':
                     [('Content-Type', 'text/xml; charset="utf-8"'),
-                     ('Server', Setting.get_server_info())],
+                     ('Server', 'Linux/4.0.9+ UPnP/1.0 IQIYIDLNA/1.0')], #Setting.get_server_info())],
             }
         }
 
